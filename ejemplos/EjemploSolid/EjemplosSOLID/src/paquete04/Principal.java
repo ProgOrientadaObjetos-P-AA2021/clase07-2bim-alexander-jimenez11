@@ -22,7 +22,7 @@ public class Principal {
         taxi.establecerTarifa();
 
         TransporteTransvia t3 = new TransporteTransvia();
-        t3.establecerTransvia("Cuenca");
+        t3.establecerTransvia(" Trans Cuenca");
         t3.establecerTarifa();
 
         TransporteAereo aereo = new TransporteAereo();
@@ -33,14 +33,13 @@ public class Principal {
         mar.establecerMaritimo("Paeteo");
         mar.establecerTarifa();
 
-        
         ArrayList<Transporte> lista = new ArrayList();
         lista.add(bus);
         lista.add(taxi);
         lista.add(t3);
         lista.add(aereo);
         lista.add(mar);
-        
+
         TiposTransporte tipos = new TiposTransporte();
         tipos.establecerTransportes(lista);
 
